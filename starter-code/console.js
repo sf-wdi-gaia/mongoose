@@ -6,6 +6,6 @@ repl.context.db = db;
 
 repl.on("exit", function () {
   console.log("Ciao");
-  mongoose.connection.close()
+  mongoose.connection.close();
   process.exit();
 })
